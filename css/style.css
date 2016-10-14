@@ -1,17 +1,3 @@
-body {
-	background: url(../images/meditation31.jpg) no-repeat;
-	width: 100%;
-	/*-webkit-background-size: cover;*/
-
-	-moz-background-size: cover;
-
-	-o-background-size: cover;
-	/*background-size: cover;*/
-	font-family: 'Cormorant Garamond', serif;
-	font-size: 20px;
-}
-
-
 /*Header related css*/
 header h1 {
 	height: 50px;
@@ -133,7 +119,7 @@ footer a {
 }
 
 footer {
-	color: white;	
+	color: white;
 	margin-top: 104px;
 	width: 100%;
 	background:rgba(128, 47, 194, 0.73);;
@@ -180,6 +166,14 @@ html{
 	overflow: hidden;
 }
 body{
+	background: url(../images/meditation31.jpg) no-repeat;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
 	height: 100vh;
 	overflow-y: auto;
 	overflow-x: hidden;
